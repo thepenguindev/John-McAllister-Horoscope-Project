@@ -2,8 +2,35 @@
 <html>
     <head>
         <title> John McAllister's Horoscope Site! </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="Date.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
+        <div>
+            <div>
+                Month
+                <select name="Month" id="MonthSelector">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+            <div>
+                Day
+                <select name="Day" id="DaySelector"></select>
+            </div>
+            <button type="button">Get Horoscope!</button>
+        </div>
     </body>
 </html>
